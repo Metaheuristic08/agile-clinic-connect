@@ -7,7 +7,7 @@ export const services: Service[] = [
     title: 'Psicología',
     shortDescription: 'Atención psicológica para apoyo emocional y salud mental',
     fullDescription: 'Nuestro servicio de psicología ofrece atención profesional para diversas necesidades de salud mental. Contamos con psicólogos especializados en trauma, ansiedad, depresión, adicciones y apoyo a personas con VIH. Ofrecemos un espacio seguro y confidencial para hablar sobre tus preocupaciones y trabajar en estrategias efectivas para mejorar tu bienestar emocional.',
-    imageUrl: '/placeholder.svg',
+    imageUrl: 'src/assets/imagenes-servicios/terapia-hero.jpg',
     professionals: [
       {
         id: 'psico-1',
@@ -35,7 +35,7 @@ export const services: Service[] = [
     title: 'Prueba de VIH',
     shortDescription: 'Pruebas rápidas y confidenciales con asesoramiento pre y post',
     fullDescription: 'Realizamos pruebas rápidas de VIH en un ambiente confidencial y seguro. Nuestro personal está capacitado para brindarte asesoramiento antes y después de la prueba, explicándote el procedimiento y respondiendo todas tus preguntas. El resultado se entrega en aproximadamente 20 minutos y ofrecemos apoyo emocional y orientación sobre los siguientes pasos, independientemente del resultado.',
-    imageUrl: '/placeholder.svg',
+    imageUrl: 'src/assets/imagenes-servicios/vih-hero.jpg',
     professionals: [
       {
         id: 'vih-1',
@@ -56,13 +56,13 @@ export const services: Service[] = [
     title: 'Trabajo Social',
     shortDescription: 'Apoyo para acceder a recursos sociales y asistencia básica',
     fullDescription: 'El departamento de Trabajo Social ofrece orientación y apoyo para acceder a servicios sociales, programas de asistencia y recursos comunitarios. Ayudamos a realizar trámites para obtener documentación, acceso a seguridad social, vivienda, alimentación, y otros servicios básicos. Nuestro equipo trabaja para crear un plan de acción personalizado que aborde tus necesidades específicas.',
-    imageUrl: '/placeholder.svg',
+    imageUrl: '/src/assets/imagenes-servicios/trabajo-social-hero.jpg',
     professionals: [
       {
         id: 'tsocial-1',
         name: 'Ana Morales',
         specialty: 'Trabajo Social Comunitario',
-        imageUrl: '/placeholder.svg',
+        imageUrl: 'src/assets/imagenes-servicios/trabajo-social-hero.jpg',
         bio: 'Especializada en intervención con familias en situación de vulnerabilidad y gestión de recursos.',
         availableDays: ['Lunes', 'Miércoles', 'Viernes']
       }
@@ -76,7 +76,7 @@ export const services: Service[] = [
     title: 'Nutrición',
     shortDescription: 'Asesoría nutricional adaptada a necesidades específicas de salud',
     fullDescription: 'Nuestro servicio de nutrición proporciona evaluación y asesoramiento personalizado considerando tus necesidades específicas de salud. Desarrollamos planes de alimentación para personas con VIH, enfermedades crónicas, o quienes buscan mejorar su salud general. Ofrecemos seguimiento continuo para ajustar recomendaciones y educar sobre hábitos alimenticios saludables con presupuesto limitado.',
-    imageUrl: '/placeholder.svg',
+    imageUrl: 'src/assets/imagenes-servicios/nutri-hero.jpg',
     professionals: [
       {
         id: 'nutri-1',

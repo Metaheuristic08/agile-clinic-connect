@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
               <span className="text-white font-bold text-lg">OC</span>
             </div>
             <div className="hidden sm:block">
-              <h1 className="text-xl font-bold text-ong-blue">ONG Clínica Ágil</h1>
+              <h1 className="text-xl font-bold text-ong-blue">ONG Prevención Viña</h1>
               <p className="text-xs text-ong-darkGray">Salud accesible para todos</p>
             </div>
           </Link>

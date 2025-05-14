@@ -14,22 +14,12 @@ const Footer: React.FC = () => {
               <div className="h-10 w-10 rounded-full bg-ong-blue flex items-center justify-center">
                 <span className="text-white font-bold text-lg">OC</span>
               </div>
-              <h3 className="font-bold text-lg text-ong-blue">ONG Clínica Ágil</h3>
+              <h3 className="font-bold text-lg text-ong-blue">ONG Prevención Viña</h3>
             </div>
             <p className="text-sm text-gray-600 mb-6">
               Proporcionamos servicios de salud accesibles para comunidades vulnerables con un enfoque en atención integral y apoyo humanitario.
             </p>
-            <div className="flex gap-4">
-              <a href="#" className="text-ong-blue hover:text-ong-coral transition-colors">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="text-ong-blue hover:text-ong-coral transition-colors">
-                <Instagram size={20} />
-              </a>
-              <a href="#" className="text-ong-blue hover:text-ong-coral transition-colors">
-                <Twitter size={20} />
-              </a>
-            </div>
+
           </div>
 
           {/* Services */}
@@ -73,20 +63,9 @@ const Footer: React.FC = () => {
                   Preguntas Frecuentes
                 </Link>
               </li>
-              <li>
-                <Link to="/politicas-privacidad" className="text-gray-600 hover:text-ong-blue transition-colors text-sm">
-                  Políticas de Privacidad
-                </Link>
-              </li>
-              <li>
-                <Link to="/terminos-condiciones" className="text-gray-600 hover:text-ong-blue transition-colors text-sm">
-                  Términos y Condiciones
-                </Link>
-              </li>
             </ul>
           </div>
-
-          {/* Contact Info */}
+          {/*
           <div className="col-span-1">
             <h3 className="font-bold text-lg mb-4 text-ong-darkGray">Contacto</h3>
             <ul className="space-y-3">
@@ -106,12 +85,13 @@ const Footer: React.FC = () => {
               </li>
             </ul>
           </div>
+          */}
         </div>
 
         {/* Bottom Copyright */}
         <div className="border-t mt-12 pt-6 text-center">
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} ONG Clínica Ágil. Todos los derechos reservados.
+            © {new Date().getFullYear()} ONG Prevención Viña. Todos los derechos reservados.
           </p>
         </div>
       </div>

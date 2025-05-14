@@ -7,8 +7,8 @@ export interface FAQ {
 
 export const faqs: FAQ[] = [
   {
-    question: '¿Qué servicios ofrece la ONG Clínica Ágil?',
-    answer: 'Ofrecemos servicios de psicología, pruebas de VIH, trabajo social y nutrición, todos enfocados en poblaciones vulnerables y completamente gratuitos.',
+    question: '¿Qué servicios ofrece la ONG Prevención Viña?',
+    answer: 'Ofrecemos servicios de psicología, pruebas de VIH, trabajo social y nutrición.',
     category: 'general'
   },
   {

@@ -9,8 +9,8 @@ interface Testimonial {
   rating: number;
 }
 
-const testimonials: Testimonial[] = [
-  {
+/**
+ *  {
     quote: "El apoyo psicológico que recibí me ayudó a superar un momento muy difícil en mi vida. La doctora fue muy profesional y empática.",
     author: "Elena M.",
     service: "Psicología",
@@ -28,11 +28,16 @@ const testimonials: Testimonial[] = [
     service: "Trabajo Social",
     rating: 4
   }
+ */
+
+const testimonials: Testimonial[] = [
+
 ];
 
-const TestimonialSection: React.FC = () => {
-  return (
-    <section className="py-16 bg-white">
+
+/*
+
+
       <div className="container">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-ong-darkGray mb-4">Lo que dicen nuestros pacientes</h2>
@@ -63,6 +68,13 @@ const TestimonialSection: React.FC = () => {
           ))}
         </div>
       </div>
+      
+ */
+
+const TestimonialSection: React.FC = () => {
+  return (
+    <section className="py-16 bg-white">
+
     </section>
   );
 };

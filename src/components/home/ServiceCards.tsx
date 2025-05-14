@@ -12,7 +12,7 @@ const ServiceCards: React.FC = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-ong-darkGray mb-4">Nuestros Servicios</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Ofrecemos una variedad de servicios de salud gratuitos para apoyar a las comunidades vulnerables. 
+            Ofrecemos una variedad de servicios de salud para apoyar a las comunidades vulnerables. 
             Todos nuestros servicios son proporcionados por profesionales cualificados.
           </p>
         </div>

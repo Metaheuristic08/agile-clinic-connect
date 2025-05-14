@@ -27,7 +27,7 @@ const MissionSection: React.FC = () => {
         <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-3xl font-bold text-ong-darkGray mb-4">Nuestra Misión</h2>
           <p className="text-gray-600">
-            En ONG Clínica Ágil nos dedicamos a mejorar la salud y calidad de vida de comunidades vulnerables 
+            os dedicamos a mejorar la salud y calidad de vida de comunidades vulnerables 
             a través de servicios accesibles, integrados y de alta calidad. Creemos que la salud es un derecho 
             fundamental y trabajamos para eliminar barreras de acceso.
           </p>

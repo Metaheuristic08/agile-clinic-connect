@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
               Salud accesible para <span className="text-ong-blue">comunidades vulnerables</span>
             </h1>
             <p className="text-lg text-gray-600">
-              Ofrecemos servicios gratuitos de psicología, pruebas de VIH, trabajo social y nutrición 
+              Ofrecemos servicios de psicología, pruebas de VIH, trabajo social y nutrición 
               para quienes más lo necesitan. Tu bienestar es nuestra prioridad.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -36,9 +36,6 @@ const Hero: React.FC = () => {
               <div className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">
                 Horario: Lun-Vie 9am-5pm
               </div>
-              <div className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
-                100% Gratuito
-              </div>
             </div>
           </div>
 
@@ -47,7 +44,7 @@ const Hero: React.FC = () => {
             <div className="absolute -bottom-8 -right-8 w-32 h-32 bg-ong-blue rounded-full opacity-20"></div>
             <div className="bg-white rounded-xl shadow-lg p-3 relative z-10">
               <img 
-                src="/placeholder.svg" 
+                src="./src/assets/atencion-psico.jpg" 
                 alt="Profesionales de salud" 
                 className="w-full h-auto rounded-lg object-cover aspect-[4/3]"
               />
